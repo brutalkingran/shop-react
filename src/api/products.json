@@ -1,0 +1,182 @@
+[
+	{
+		"id": 1,
+		"product_name": "Smartphone Xiaomi Redmi Note 12",
+		"image": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f659eec2-a60c-478c-b587-d01e2f7bd95d.png",
+		"price": 259.99
+	},
+	{
+		"id": 2,
+		"product_name": "Televisor LG 55\" 4K UHD",
+		"image": "https://placehold.co/600x400",
+		"price": 499.99
+	},
+	{
+		"id": 3,
+		"product_name": "Laptop HP Pavilion 15.6\"",
+		"image": "https://placehold.co/600x400",
+		"price": 699.00
+	},
+	{
+		"id": 4,
+		"product_name": "Auriculares inalámbricos Sony WH-1000XM4",
+		"image": "https://placehold.co/600x400",
+		"price": 279.50
+	},
+	{
+		"id": 5,
+		"product_name": "Reloj inteligente Samsung Galaxy Watch 5",
+		"image": "https://placehold.co/600x400",
+		"price": 199.99
+	},
+	{
+		"id": 6,
+		"product_name": "Cámara GoPro Hero 11",
+		"image": "https://placehold.co/600x400",
+		"price": 349.99
+	},
+	{
+		"id": 7,
+		"product_name": "Consola PlayStation 5",
+		"image": "https://placehold.co/600x400",
+		"price": 549.00
+	},
+	{
+		"id": 8,
+		"product_name": "Tablet Amazon Fire HD 10",
+		"image": "https://placehold.co/600x400",
+		"price": 149.99
+	},
+	{
+		"id": 9,
+		"product_name": "Impresora Epson EcoTank L3210",
+		"image": "https://placehold.co/600x400",
+		"price": 219.49
+	},
+	{
+		"id": 10,
+		"product_name": "Aspiradora robot Xiaomi Mi Robot",
+		"image": "https://placehold.co/600x400",
+		"price": 299.99
+	},
+	{
+		"id": 11,
+		"product_name": "Licuadora Oster Pro 1200",
+		"image": "https://placehold.co/600x400",
+		"price": 89.99
+	},
+	{
+		"id": 12,
+		"product_name": "Cafetera Nespresso Essenza Mini",
+		"image": "https://placehold.co/600x400",
+		"price": 119.00
+	},
+	{
+		"id": 13,
+		"product_name": "Set de ollas antiadherentes T-fal",
+		"image": "https://placehold.co/600x400",
+		"price": 139.95
+	},
+	{
+		"id": 14,
+		"product_name": "Mochila antirrobo para laptop",
+		"image": "https://placehold.co/600x400",
+		"price": 59.99
+	},
+	{
+		"id": 15,
+		"product_name": "Zapatillas deportivas Nike Air Max",
+		"image": "https://placehold.co/600x400",
+		"price": 129.99
+	},
+	{
+		"id": 16,
+		"product_name": "Camisa formal hombre manga larga",
+		"image": "https://placehold.co/600x400",
+		"price": 39.99
+	},
+	{
+		"id": 17,
+		"product_name": "Vestido floral verano mujer",
+		"image": "https://placehold.co/600x400",
+		"price": 45.50
+	},
+	{
+		"id": 18,
+		"product_name": "Jeans Levi's 501 originales",
+		"image": "https://placehold.co/600x400",
+		"price": 79.95
+	},
+	{
+		"id": 19,
+		"product_name": "Chaqueta impermeable The North Face",
+		"image": "https://placehold.co/600x400",
+		"price": 149.00
+	},
+	{
+		"id": 20,
+		"product_name": "Maleta de viaje Samsonite 20\"",
+		"image": "https://placehold.co/600x400",
+		"price": 159.99
+	},
+	{
+		"id": 21,
+		"product_name": "Bicicleta montañera Trek Marlin 5",
+		"image": "https://placehold.co/600x400",
+		"price": 599.00
+	},
+	{
+		"id": 22,
+		"product_name": "Mesa de centro moderna madera",
+		"image": "https://placehold.co/600x400",
+		"price": 129.99
+	},
+	{
+		"id": 23,
+		"product_name": "Silla ergonómica para oficina",
+		"image": "https://placehold.co/600x400",
+		"price": 189.99
+	},
+	{
+		"id": 24,
+		"product_name": "Cama king size con cabecera",
+		"image": "https://placehold.co/600x400",
+		"price": 399.00
+	},
+	{
+		"id": 25,
+		"product_name": "Juego de sábanas algodón 600 hilos",
+		"image": "https://placehold.co/600x400",
+		"price": 59.95
+	},
+	{
+		"id": 26,
+		"product_name": "Kit de herramientas 120 piezas",
+		"image": "https://placehold.co/600x400",
+		"price": 79.99
+	},
+	{
+		"id": 27,
+		"product_name": "Taladro inalámbrico Black+Decker",
+		"image": "https://placehold.co/600x400",
+		"price": 69.99
+	},
+	{
+		"id": 28,
+		"product_name": "Set de maquillaje Profesional 24 colores",
+		"image": "https://placehold.co/600x400",
+		"price": 49.99
+	},
+	{
+		"id": 29,
+		"product_name": "Perfume Hugo Boss Bottled",
+		"image": "https://placehold.co/600x400",
+		"price": 89.95
+	},
+	{
+		"id": 30,
+		"product_name": "Altavoz Bluetooth JBL Flip 5",
+		"image": "https://placehold.co/600x400",
+		"price": 119.99
+	}
+]
