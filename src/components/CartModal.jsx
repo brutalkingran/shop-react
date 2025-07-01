@@ -41,7 +41,7 @@ const CartModal = ({ onClose }) => {
 
                   {/* Título */}
                   <p className="text-gray-800 flex-1 text-center truncate px-2">
-                    {product.product_name}
+                    {product.product_name} ( x{product.quantity} )
                   </p>
 
                   {/* Botón de eliminar */}
