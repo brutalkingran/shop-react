@@ -1,4 +1,3 @@
-// CartContext.jsx
 import { createContext, useEffect, useState } from 'react';
 
 // 1. Definir contexto

@@ -26,9 +26,8 @@ const useCart = () => {
     ));
   };
 
-  const decreaseQuantity = (id) => {
-    setCart(cart
-      .map(item =>
+  const decreaseQuantity = ( id ) => {
+    setCart(cart.map(item =>
         item.id === id
           ? { ...item, quantity: item.quantity - 1 }
           : item
@@ -37,15 +36,18 @@ const useCart = () => {
     );
   };
 
-  const removeItem = (id) => {
-    setCart(cart.filter(item => item.id !== id));
+  // REMOVE PRODUCT
+  const removeItem = ( id ) => {
+    setCart( cart.filter(item => item.id !== id ));
   };
 
+  // CLEAR
   const clearCart = () => {
     setCart([]);
   };
 
-  const total = cart.reduce((acc, prod) => acc + prod.price * prod.quantity, 0);
+  // GET TOTAL
+  const total = cart.reduce( (acc, prod) => (acc + prod.price * prod.quantity), 0); // reduce calcula elementos de array ( array.reduce(callbackFn, initialValue), initialValue es 0 )
 
   return {
     cart,

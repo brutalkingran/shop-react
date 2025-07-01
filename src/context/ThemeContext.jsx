@@ -1,12 +1,11 @@
-// ThemeContext.jsx
 import { createContext, useState, useEffect } from 'react';
 
 export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
 	const [darkMode, setDarkMode] = useState(() => {
-		// Detectar preferencia del sistema al cargar
-		if (typeof window !== 'undefined') {
+		// Detectar preferencia del sistema en localStorage
+		if ( typeof window !== 'undefined' ) {
 			return localStorage.getItem('theme') === 'dark' ||
 				(!localStorage.getItem('theme') &&
 				window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -16,14 +15,15 @@ export const ThemeProvider = ({ children }) => {
 
 	useEffect(() => {
 		const root = window.document.documentElement;
-		if (darkMode) {
+
+		if ( darkMode ) {
 			root.classList.add('dark');
 			localStorage.setItem('theme', 'dark');
 		} else {
 			root.classList.remove('dark');
 			localStorage.setItem('theme', 'light');
 		}
-	}, [darkMode]);
+	}, [ darkMode ]);
 
 	return (
 		<ThemeContext.Provider value={{ darkMode, setDarkMode }}>

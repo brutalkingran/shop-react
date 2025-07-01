@@ -19,7 +19,7 @@ const Header = () => {
       </div>
 
       {
-        isModalOpen && <CartModal onClose = {() => setIsModalOpen(false)} />
+        isModalOpen && <CartModal onClose = {() => setIsModalOpen( false )} />
       }
     </>
   )

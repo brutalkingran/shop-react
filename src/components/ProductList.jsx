@@ -8,7 +8,7 @@ return (
 	
 	<div className="flex flex-nowrap overflow-x-auto pb-4 space-x-4 md:flex-wrap md:overflow-x-visible md:space-x-0 md:gap-4">
 	{products.map((product) => (
-		<ProductCard key={product.id} product={product} />
+		<ProductCard key={ product.id } product={ product } />
 	))}
 	</div>
 </div>
