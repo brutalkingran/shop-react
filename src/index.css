@@ -4,11 +4,17 @@
 @tailwind utilities;
 
 @theme {
-  --color-palette-50: rgb(86, 45, 97);
-  --color-palette-100: rgb(56, 19, 91);
-  --color-palette-200: rgb(170, 183, 219);
-  --color-palette-300: rgb(51, 54, 64);
-  --color-palette-400: rgb(11, 11, 11);
+  --color-palette-light-100: rgb(72, 133, 237);
+  --color-palette-light-200: rgb(60, 186, 84);
+  --color-palette-light-300: rgb(244, 194, 13);
+  --color-palette-light-400: rgb(219, 50, 54);
+  --color-palette-light-500: rgb(255, 255, 255);
+
+  --color-palette-dark-100: rgb(166, 20, 59);
+  --color-palette-dark-200: rgb(242, 34, 89);
+  --color-palette-dark-300: rgb(38, 5, 14);
+  --color-palette-dark-400: rgb(64, 2, 25);
+  --color-palette-dark-500: rgb(9, 5, 13);
 }
 
 @layer base {

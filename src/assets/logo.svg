@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cuerpo de la bolsa -->
+  <path d="M16 20h32l4 34H12z" fill="#f4b400" stroke="#000" stroke-width="2" />
+
+  <!-- Asa de la bolsa (parábola) -->
+  <path d="M24 20c0-4 4-8 8-8s8 4 8 8" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Detalles opcionales -->
+  <circle cx="24" cy="20" r="1.5" fill="#000" />
+  <circle cx="40" cy="20" r="1.5" fill="#000" />
+
+  <!-- Sombra inferior -->
+  <ellipse cx="32" cy="58" rx="20" ry="3" fill="#ccc" opacity="0.5"/>
+</svg>
