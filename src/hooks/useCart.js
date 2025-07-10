@@ -4,13 +4,14 @@ import { CartContext } from "../context/CartContext";
 const useCart = () => {
   const { cart, setCart } = useContext(CartContext);
 
-  const addItem = (item) => {
-    const exists = cart.find(prod => prod.id === item.id);
+  // AÑADIR
+  const addItem = (item) => { // Añade primer producto
+    const exists = cart.find(prod => prod.id === item.id); // búsqueda
 
     if (exists) {
       setCart(cart.map(prod =>
         prod.id === item.id
-          ? { ...prod, quantity: prod.quantity + 1 }
+          ? { ...prod, quantity: prod.quantity + 1 } // crea el atributo quantity
           : prod
       ));
     } else {
@@ -18,6 +19,7 @@ const useCart = () => {
     }
   };
 
+  // INCREMENTAR
   const increaseQuantity = (id) => {
     setCart(cart.map(item =>
       item.id === id
@@ -26,6 +28,7 @@ const useCart = () => {
     ));
   };
 
+  // DECREMENTAR
   const decreaseQuantity = ( id ) => {
     setCart(cart.map(item =>
         item.id === id
@@ -38,7 +41,7 @@ const useCart = () => {
 
   // REMOVE PRODUCT
   const removeItem = ( id ) => {
-    setCart( cart.filter(item => item.id !== id ));
+    setCart( cart.filter(item => item.id !== id )); // mantiene todos los items excepto los del id a eliminar
   };
 
   // CLEAR

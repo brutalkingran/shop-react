@@ -42,10 +42,10 @@ const Header = () => {
       <div className="hidden md:flex">
         <nav>
           <ul className="flex flex-row justify-around items-center gap-2">
-            <li><button className="cursor-pointer rounded p-2 text-white m-2 bg-palette-light-100 dark:bg-palette-dark-100">Nuevos</button></li>
-            <li><button className="cursor-pointer rounded p-2 text-white m-2 bg-palette-light-200 dark:bg-palette-dark-200">Ofertas</button></li>
-            <li><button className="cursor-pointer rounded p-2 text-white m-2 bg-palette-light-300 dark:bg-palette-dark-300">Categorías</button></li>
-            <li><button onClick={() => setIsModalOpen(prev => !prev)} className="cursor-pointer rounded p-2 m-2 text-white bg-palette-light-400 dark:bg-palette-dark-500">Carrito</button></li>
+            <li><button className="cursor-pointer rounded p-2 text-white m-2 bg-palette-light-100 dark:bg-palette-dark-100 hover:scale-105 transition-transform duration-200">Nuevos</button></li>
+            <li><button className="cursor-pointer rounded p-2 text-white m-2 bg-palette-light-200 dark:bg-palette-dark-200 hover:scale-105 transition-transform duration-200">Ofertas</button></li>
+            <li><button className="cursor-pointer rounded p-2 text-white m-2 bg-palette-light-300 dark:bg-palette-dark-300 hover:scale-105 transition-transform duration-200">Categorías</button></li>
+            <li><button onClick={() => setIsModalOpen(prev => !prev)} className="cursor-pointer rounded p-2 m-2 text-white bg-palette-light-400 dark:bg-palette-dark-500 hover:scale-105 transition-transform duration-200">Carrito</button></li>
             <li><ThemeButton/></li>
           </ul>
         </nav>

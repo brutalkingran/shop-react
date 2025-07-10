@@ -4,7 +4,7 @@ import { createContext, useEffect, useState } from 'react';
 export const CartContext = createContext();
 
 // 2. crear provider
-export const CartProvider = ({ children }) => {
+export const CartProvider = ({ children }) => { // 'children' son los elementos hijos que se colocan dentro del componente en el JSX.
   const [cart, setCart] = useState(getInitialCart);
 
   // Guardar en localStorage
@@ -13,7 +13,7 @@ export const CartProvider = ({ children }) => {
   }, [cart]);
 
   return (
-    <CartContext.Provider value={{ cart, setCart }}>
+    <CartContext.Provider value={{ cart, setCart }}> {/* // hace accesible el valor { cart, setCart } a todos los componentes hijos que lo consuman mediante el hook useContext(CartContext). */}
       {children}
     </CartContext.Provider>
   );
