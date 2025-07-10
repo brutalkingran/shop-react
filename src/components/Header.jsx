@@ -7,6 +7,7 @@ import { Flex, Input } from 'antd';
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { ThemeContext } from "../context/ThemeContext";
+import { ButtonDesktop, ButtonMobile } from "./ui/buttons";
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,13 +28,7 @@ const Header = () => {
       <div className="flex w-1/2">
         <div className="m-2 rounded-2xl w-full bg-white dark:bg-palette-dark-100 text-white placeholder:white">
           <Flex vertical gap={12}>
-            <Input.Search
-              placeholder="Search for a product..."
-              variant="filled"
-              rootClassName="search-dark"
-              className="text-black dark:text-white dark:placeholder-white"
-              allowClear
-            />
+            <Input.Search placeholder="Busque un producto..." variant="filled" rootClassName="search-dark" className="text-black dark:text-white dark:placeholder-white" allowClear />
           </Flex>
         </div>
       </div>
@@ -42,10 +37,10 @@ const Header = () => {
       <div className="hidden md:flex">
         <nav>
           <ul className="flex flex-row justify-around items-center gap-2">
-            <li><button className="cursor-pointer rounded p-2 text-white m-2 bg-palette-light-100 dark:bg-palette-dark-100 hover:scale-105 transition-transform duration-200">Nuevos</button></li>
-            <li><button className="cursor-pointer rounded p-2 text-white m-2 bg-palette-light-200 dark:bg-palette-dark-200 hover:scale-105 transition-transform duration-200">Ofertas</button></li>
-            <li><button className="cursor-pointer rounded p-2 text-white m-2 bg-palette-light-300 dark:bg-palette-dark-300 hover:scale-105 transition-transform duration-200">Categorías</button></li>
-            <li><button onClick={() => setIsModalOpen(prev => !prev)} className="cursor-pointer rounded p-2 m-2 text-white bg-palette-light-400 dark:bg-palette-dark-500 hover:scale-105 transition-transform duration-200">Carrito</button></li>
+            <li><ButtonDesktop text="Nuevos" styles={`bg-palette-light-100 dark:bg-palette-dark-100`}/></li>
+            <li><ButtonDesktop text="Ofertas" styles={`bg-palette-light-200 dark:bg-palette-dark-200`}/></li>
+            <li><ButtonDesktop text="Categorías" styles={`bg-palette-light-300 dark:bg-palette-dark-300`}/></li>
+            <li><ButtonDesktop text="Carrito" styles={`bg-palette-light-400 dark:bg-palette-dark-500`} action={() => setIsModalOpen(prev => !prev)}/></li>
             <li><ThemeButton/></li>
           </ul>
         </nav>
@@ -70,10 +65,10 @@ const Header = () => {
         `}
       >
         <ul className="flex flex-col">
-          <li className="bg-palette-light-100 text-white dark:bg-palette-dark-100"><button className="cursor-pointer p-1 m-2 py-1 px-40">Nuevos</button></li>
-          <li className="bg-palette-light-200 text-white dark:bg-palette-dark-200"><button className="cursor-pointer p-1 m-2 py-1 px-40">Ofertas</button></li>
-          <li className="bg-palette-light-300 text-white dark:bg-palette-dark-300"><button className="cursor-pointer p-1 m-2 py-1 px-40">Categorías</button></li>
-          <li className="bg-palette-light-400 text-white dark:bg-palette-dark-400"><button onClick={ () => setIsModalOpen(prev => !prev) } className="cursor-pointer py-1 px-40 m-2">Carrito</button></li>
+          <li className="bg-palette-light-100 text-white dark:bg-palette-dark-100"><ButtonMobile text="Nuevos"/></li>
+          <li className="bg-palette-light-200 text-white dark:bg-palette-dark-200"><ButtonMobile text="Ofertas"/></li>
+          <li className="bg-palette-light-300 text-white dark:bg-palette-dark-300"><ButtonMobile text="Categorías"/></li>
+          <li className="bg-palette-light-400 text-white dark:bg-palette-dark-400"><ButtonMobile text="Carrito" action={ () => setIsModalOpen(prev => !prev)}/></li>
         </ul>
       </div>
 
