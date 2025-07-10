@@ -1,182 +1,72 @@
 [
-	{
-		"id": 1,
-		"product_name": "Smartphone Xiaomi Redmi Note 12",
-		"image": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f659eec2-a60c-478c-b587-d01e2f7bd95d.png",
-		"price": 259.99
-	},
-	{
-		"id": 2,
-		"product_name": "Televisor LG 55\" 4K UHD",
-		"image": "https://placehold.co/600x400",
-		"price": 499.99
-	},
-	{
-		"id": 3,
-		"product_name": "Laptop HP Pavilion 15.6\"",
-		"image": "https://placehold.co/600x400",
-		"price": 699.00
-	},
-	{
-		"id": 4,
-		"product_name": "Auriculares inalámbricos Sony WH-1000XM4",
-		"image": "https://placehold.co/600x400",
-		"price": 279.50
-	},
-	{
-		"id": 5,
-		"product_name": "Reloj inteligente Samsung Galaxy Watch 5",
-		"image": "https://placehold.co/600x400",
-		"price": 199.99
-	},
-	{
-		"id": 6,
-		"product_name": "Cámara GoPro Hero 11",
-		"image": "https://placehold.co/600x400",
-		"price": 349.99
-	},
-	{
-		"id": 7,
-		"product_name": "Consola PlayStation 5",
-		"image": "https://placehold.co/600x400",
-		"price": 549.00
-	},
-	{
-		"id": 8,
-		"product_name": "Tablet Amazon Fire HD 10",
-		"image": "https://placehold.co/600x400",
-		"price": 149.99
-	},
-	{
-		"id": 9,
-		"product_name": "Impresora Epson EcoTank L3210",
-		"image": "https://placehold.co/600x400",
-		"price": 219.49
-	},
-	{
-		"id": 10,
-		"product_name": "Aspiradora robot Xiaomi Mi Robot",
-		"image": "https://placehold.co/600x400",
-		"price": 299.99
-	},
-	{
-		"id": 11,
-		"product_name": "Licuadora Oster Pro 1200",
-		"image": "https://placehold.co/600x400",
-		"price": 89.99
-	},
-	{
-		"id": 12,
-		"product_name": "Cafetera Nespresso Essenza Mini",
-		"image": "https://placehold.co/600x400",
-		"price": 119.00
-	},
-	{
-		"id": 13,
-		"product_name": "Set de ollas antiadherentes T-fal",
-		"image": "https://placehold.co/600x400",
-		"price": 139.95
-	},
-	{
-		"id": 14,
-		"product_name": "Mochila antirrobo para laptop",
-		"image": "https://placehold.co/600x400",
-		"price": 59.99
-	},
-	{
-		"id": 15,
-		"product_name": "Zapatillas deportivas Nike Air Max",
-		"image": "https://placehold.co/600x400",
-		"price": 129.99
-	},
-	{
-		"id": 16,
-		"product_name": "Camisa formal hombre manga larga",
-		"image": "https://placehold.co/600x400",
-		"price": 39.99
-	},
-	{
-		"id": 17,
-		"product_name": "Vestido floral verano mujer",
-		"image": "https://placehold.co/600x400",
-		"price": 45.50
-	},
-	{
-		"id": 18,
-		"product_name": "Jeans Levi's 501 originales",
-		"image": "https://placehold.co/600x400",
-		"price": 79.95
-	},
-	{
-		"id": 19,
-		"product_name": "Chaqueta impermeable The North Face",
-		"image": "https://placehold.co/600x400",
-		"price": 149.00
-	},
-	{
-		"id": 20,
-		"product_name": "Maleta de viaje Samsonite 20\"",
-		"image": "https://placehold.co/600x400",
-		"price": 159.99
-	},
-	{
-		"id": 21,
-		"product_name": "Bicicleta montañera Trek Marlin 5",
-		"image": "https://placehold.co/600x400",
-		"price": 599.00
-	},
-	{
-		"id": 22,
-		"product_name": "Mesa de centro moderna madera",
-		"image": "https://placehold.co/600x400",
-		"price": 129.99
-	},
-	{
-		"id": 23,
-		"product_name": "Silla ergonómica para oficina",
-		"image": "https://placehold.co/600x400",
-		"price": 189.99
-	},
-	{
-		"id": 24,
-		"product_name": "Cama king size con cabecera",
-		"image": "https://placehold.co/600x400",
-		"price": 399.00
-	},
-	{
-		"id": 25,
-		"product_name": "Juego de sábanas algodón 600 hilos",
-		"image": "https://placehold.co/600x400",
-		"price": 59.95
-	},
-	{
-		"id": 26,
-		"product_name": "Kit de herramientas 120 piezas",
-		"image": "https://placehold.co/600x400",
-		"price": 79.99
-	},
-	{
-		"id": 27,
-		"product_name": "Taladro inalámbrico Black+Decker",
-		"image": "https://placehold.co/600x400",
-		"price": 69.99
-	},
-	{
-		"id": 28,
-		"product_name": "Set de maquillaje Profesional 24 colores",
-		"image": "https://placehold.co/600x400",
-		"price": 49.99
-	},
-	{
-		"id": 29,
-		"product_name": "Perfume Hugo Boss Bottled",
-		"image": "https://placehold.co/600x400",
-		"price": 89.95
-	},
-	{
-		"id": 30,
-		"product_name": "Altavoz Bluetooth JBL Flip 5",
-		"image": "https://placehold.co/600x400",
-		"price": 119.99
-	}
+  {
+    "id": 1,
+    "product_name": "Glock 17",
+    "image": "/armas/glock.png",
+    "price": 499.99,
+    "descripcion": "Pistola semiautomática calibre 9mm, reconocida por su fiabilidad, peso ligero y facilidad de uso en condiciones adversas."
+  },
+  {
+    "id": 2,
+    "product_name": "Remington 870",
+    "image": "/armas/remington-870.png",
+    "price": 379.99,
+    "descripcion": "Escopeta de corredera versátil, utilizada tanto en defensa personal como en caza. Robusta y altamente personalizable."
+  },
+  {
+    "id": 3,
+    "product_name": "M1A1 Thompson",
+    "image": "/armas/img_1524-e7f247952d5c4d842317425642772214-1024-1024.png",
+    "price": 899.00,
+    "descripcion": "Subfusil calibre .45 ACP de diseño clásico. Popular por su potencia de fuego y diseño retro militar."
+  },
+  {
+    "id": 4,
+    "product_name": "Mossberg 500",
+    "image": "/armas/594835.png",
+    "price": 349.99,
+    "descripcion": "Escopeta táctica con capacidad de hasta 8 cartuchos. Ideal para defensa del hogar y patrullaje."
+  },
+  {
+    "id": 5,
+    "product_name": "Barrett M82",
+    "image": "/armas/960px-M107_1.png",
+    "price": 2999.99,
+    "descripcion": "Rifle de precisión semiautomático calibre .50 BMG. Diseñado para tiros de largo alcance y destrucción de material pesado."
+  },
+  {
+    "id": 6,
+    "product_name": "AR-15 Tactical",
+    "image": "/armas/1722920541-kgmc0C62vi_pngx3mpNOGioUGU6Ra2M1BgyijZhH.png",
+    "price": 999.99,
+    "descripcion": "Rifle modular calibre 5.56x45mm NATO, ampliamente utilizado en tiro deportivo y defensa personal."
+  },
+  {
+    "id": 7,
+    "product_name": "Desert Eagle .50 AE",
+    "image": "/armas/desert.png",
+    "price": 1299.00,
+    "descripcion": "Pistola semiautomática de gran calibre y alta potencia. Conocida por su fuerte retroceso y diseño imponente."
+  },
+  {
+    "id": 8,
+    "product_name": "MP5 SD",
+    "image": "/armas/mp5.png",
+    "price": 1399.50,
+    "descripcion": "Subfusil con supresor integrado. Compacto, silencioso y ampliamente usado por fuerzas especiales en operaciones tácticas."
+  },
+  {
+    "id": 9,
+    "product_name": "Benelli M4",
+    "image": "/armas/JW2M4_Bore_White__07099.1718803064.png",
+    "price": 1499.99,
+    "descripcion": "Escopeta semiautomática de uso militar. Ideal para operaciones urbanas por su fiabilidad y potencia de fuego."
+  },
+  {
+    "id": 10,
+    "product_name": "Colt M1911",
+    "image": "/armas/CP_303-2.png",
+    "price": 749.99,
+    "descripcion": "Pistola clásica calibre .45 ACP con más de un siglo de historia. Valorada por su precisión y diseño robusto."
+  }
 ]
